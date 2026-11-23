@@ -1,0 +1,55 @@
+# Theme: Murphys design system (shared with the other portfolio apps).
+# Typography: MIT-inspired grotesque (Arimo, the open metric-compatible
+# equivalent of Arial, MIT's alternative to Neue Haas Grotesk) with
+# Roboto Mono for labels and code. Both fonts are SIL OFL 1.1 and self-hosted.
+[theme]
+base = "light"
+primaryColor = "#FF6A13"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFF4EC"
+textColor = "#1B1B1F"
+linkColor = "#C2410C"
+borderColor = "#E7E7EA"
+font = "Arimo, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+headingFont = "Arimo, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+codeFont = "'Roboto Mono', monospace"
+metricValueFontWeight = 700
+baseRadius = "0.6rem"
+chartCategoricalColors = ["#B42318", "#F79009", "#067647", "#FF6A13", "#98A2B3"]
+
+[[theme.fontFaces]]
+family = "Arimo"
+url = "app/static/fonts/Arimo-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Arimo"
+url = "app/static/fonts/Arimo-SemiBold.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Arimo"
+url = "app/static/fonts/Arimo-Bold.woff2"
+weight = 700
+
+[[theme.fontFaces]]
+family = "Roboto Mono"
+url = "app/static/fonts/RobotoMono-Regular.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Roboto Mono"
+url = "app/static/fonts/RobotoMono-Medium.woff2"
+weight = 500
+
+[server]
+enableStaticServing = true
+maxUploadSize = 5
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none"

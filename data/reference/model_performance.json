@@ -1,0 +1,19 @@
+{
+  "_source": "notebooks/student_dropout_prediction.ipynb, Sections 7.8 and 9.1 (Restart & Run All on 2026-11-18). Update after every retraining.",
+  "evaluated_students": 443,
+  "dropout_threshold": 0.37,
+  "dropout_recall": 0.761,
+  "dropout_precision": 0.837,
+  "accuracy": 0.756,
+  "macro_f1": 0.680,
+  "enrolled_f1": 0.40,
+  "business_rule": {
+    "description": "Flag a student when no second-semester unit was passed or tuition fees are in arrears.",
+    "dropout_recall": 0.662,
+    "dropout_precision": 0.832
+  },
+  "targets": {
+    "dropout_recall": 0.75,
+    "macro_f1": 0.70
+  }
+}

@@ -1,0 +1,30 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+institute-student-dropout-prediction/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+# Earlier notebook versions (kept locally as history, not published)
+notebooks/archive/
+
+# Streamlit secrets
+.streamlit/secrets.toml

@@ -1,0 +1,134 @@
+{
+  "_source": "Code tables from the dataset documentation: Realinho, V., Vieira Martins, M., Machado, J., & Baptista, L. (2021). Predict Students' Dropout and Academic Success. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89",
+  "Marital_status": {
+    "1": "Single",
+    "2": "Married",
+    "3": "Widower",
+    "4": "Divorced",
+    "5": "Facto union",
+    "6": "Legally separated"
+  },
+  "Application_mode": {
+    "1": "1st phase, general contingent",
+    "2": "Ordinance No. 612/93",
+    "5": "1st phase, special contingent (Azores)",
+    "7": "Holders of other higher courses",
+    "10": "Ordinance No. 854-B/99",
+    "15": "International student (bachelor)",
+    "16": "1st phase, special contingent (Madeira)",
+    "17": "2nd phase, general contingent",
+    "18": "3rd phase, general contingent",
+    "26": "Ordinance No. 533-A/99, item b2 (different plan)",
+    "27": "Ordinance No. 533-A/99, item b3 (other institution)",
+    "39": "Over 23 years old",
+    "42": "Transfer",
+    "43": "Change of course",
+    "44": "Technological specialization diploma holders",
+    "51": "Change of institution/course",
+    "53": "Short cycle diploma holders",
+    "57": "Change of institution/course (international)"
+  },
+  "Application_order": {
+    "0": "1st choice",
+    "1": "2nd choice",
+    "2": "3rd choice",
+    "3": "4th choice",
+    "4": "5th choice",
+    "5": "6th choice",
+    "6": "7th choice",
+    "9": "Last choice"
+  },
+  "Course": {
+    "33": "Biofuel Production Technologies",
+    "171": "Animation and Multimedia Design",
+    "8014": "Social Service (evening)",
+    "9003": "Agronomy",
+    "9070": "Communication Design",
+    "9085": "Veterinary Nursing",
+    "9119": "Informatics Engineering",
+    "9130": "Equinculture",
+    "9147": "Management",
+    "9238": "Social Service",
+    "9254": "Tourism",
+    "9500": "Nursing",
+    "9556": "Oral Hygiene",
+    "9670": "Advertising and Marketing Management",
+    "9773": "Journalism and Communication",
+    "9853": "Basic Education",
+    "9991": "Management (evening)"
+  },
+  "Daytime_evening_attendance": {
+    "0": "Evening",
+    "1": "Daytime"
+  },
+  "Previous_qualification": {
+    "1": "Secondary education",
+    "2": "Higher education, bachelor's degree",
+    "3": "Higher education, degree",
+    "4": "Higher education, master's",
+    "5": "Higher education, doctorate",
+    "6": "Frequency of higher education",
+    "9": "12th year, not completed",
+    "10": "11th year, not completed",
+    "12": "Other, 11th year",
+    "14": "10th year",
+    "15": "10th year, not completed",
+    "19": "Basic education, 3rd cycle",
+    "38": "Basic education, 2nd cycle",
+    "39": "Technological specialization course",
+    "40": "Higher education, degree (1st cycle)",
+    "42": "Professional higher technical course",
+    "43": "Higher education, master (2nd cycle)"
+  },
+  "Nationality": {
+    "1": "Portuguese",
+    "2": "German",
+    "6": "Spanish",
+    "11": "Italian",
+    "13": "Dutch",
+    "14": "English",
+    "17": "Lithuanian",
+    "21": "Angolan",
+    "22": "Cape Verdean",
+    "24": "Guinean",
+    "25": "Mozambican",
+    "26": "Santomean",
+    "32": "Turkish",
+    "41": "Brazilian",
+    "62": "Romanian",
+    "100": "Moldovan",
+    "101": "Mexican",
+    "103": "Ukrainian",
+    "105": "Russian",
+    "108": "Cuban",
+    "109": "Colombian"
+  },
+  "Gender": {
+    "0": "Female",
+    "1": "Male"
+  },
+  "Displaced": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "Educational_special_needs": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "Debtor": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "Tuition_fees_up_to_date": {
+    "0": "No (in arrears)",
+    "1": "Yes"
+  },
+  "Scholarship_holder": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "International": {
+    "0": "No",
+    "1": "Yes"
+  }
+}

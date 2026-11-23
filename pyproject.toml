@@ -1,0 +1,22 @@
+[project]
+name = "institute-student-dropout-prediction"
+version = "0.1.0"
+description = "Student dropout early-warning prototype: Random Forest model and a Streamlit app (MVC)"
+readme = "README.md"
+requires-python = ">=3.11"
+# Runtime pins live in the requirements files (see README).
+dependencies = []
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "B", "UP", "N", "PD", "NPY"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
