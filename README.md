@@ -10,8 +10,12 @@ This README retells the notebook in plain language, section by section, without 
 engineered copy of the data power a Streamlit early-warning app for advisors and academic leadership of the fictional
 **Murphys Polytechnic Institute** in [`app/`](app/).
 
-**Try the app:** run it on your own computer in a few commands (see [How to Run](#how-to-run)). Nothing needs to be
-trained: the repository already includes the model and the data the app reads.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://murphys-polytechnic-dropout.streamlit.app/)
+
+**Try the app:** open the live demo at
+[murphys-polytechnic-dropout.streamlit.app](https://murphys-polytechnic-dropout.streamlit.app/), or run it on your
+own computer in a few commands (see [How to Run](#how-to-run)). The live demo can take a few seconds to wake up after a
+quiet period.
 
 ![The early-warning app, Dashboard page](docs/images/app_dashboard.png)
 
@@ -885,9 +889,13 @@ this README.
 ### 6. Deploy (optional)
 
 * **GitHub.** Secrets belong in `.streamlit/secrets.toml`, which is ignored; the app needs none.
-* **Streamlit Community Cloud.** Create an app from the repository with the main file `app/main.py` and Python 3.11
-  or newer. Dependencies come from `app/requirements.txt`, and the theme and self-hosted fonts from
-  `.streamlit/config.toml`.
+* **Streamlit Community Cloud.** The live demo runs at
+  [murphys-polytechnic-dropout.streamlit.app](https://murphys-polytechnic-dropout.streamlit.app/). To deploy a copy,
+  create an app from the repository with the main file `app/main.py` and Python 3.11 or newer. Dependencies come from
+  `app/requirements.txt`, and the theme and self-hosted fonts from `.streamlit/config.toml`.
+* **Keeping the demo awake.** Community Cloud puts quiet apps to sleep, and a plain HTTP ping does not wake them. The
+  workflow `.github/workflows/keep-alive.yml` opens the app in a headless browser every 6 hours and presses the wake-up
+  button when needed. It can also be started by hand under *Actions → Keep Streamlit app awake → Run workflow*.
 
 ### Project layout
 
@@ -900,6 +908,7 @@ this README.
 | `tests/` | Automated tests |
 | `docs/` | `REVISION_REPORT.md` (history of the notebook revision) and `images/` (figures used in this README) |
 | `.streamlit/` | App theme, fonts and upload limit |
+| `.github/workflows/` | The scheduled workflow that keeps the live demo awake |
 
 ---
 
